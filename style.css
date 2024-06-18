@@ -22,24 +22,28 @@ html {
 body {
     height: 100vh;
     margin-top: 100px;
-    background-image: linear-gradient(
-        160deg,
-        hsl(201deg 24% 14%) 0%,
-        hsl(202deg 30% 15%) 11%,
-        hsl(202deg 37% 15%) 22%,
-        hsl(202deg 43% 16%) 33%,
-        hsl(202deg 49% 16%) 44%,
-        hsl(203deg 55% 17%) 56%,
-        hsl(203deg 61% 18%) 67%,
-        hsl(203deg 66% 18%) 78%,
-        hsl(203deg 71% 19%) 89%,
-        hsl(204deg 76% 20%) 100%
-    );
-    background-attachment: fixed;
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
 }
+
+.gradient-background {
+    background: linear-gradient(300deg,#0f4c75,#1b262c,#0f4c75);
+    background-size: 180% 180%;
+    animation: gradient-animation 27s ease infinite;
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 .wrapper {
     width: 60%;
