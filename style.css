@@ -318,6 +318,10 @@ form {
             color: var(--p-color);
         }
 
+        .mq-headline {
+            display: block;
+        }
+
         .wrapper {
             width: 90%;
             display: flex;
