@@ -424,6 +424,7 @@ footer ul li a:hover {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding-bottom: 20px;
         }
 
       }
