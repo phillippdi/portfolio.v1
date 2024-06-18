@@ -299,7 +299,7 @@ form {
 
   /* Footer Styling */
 
-  #footer {
+#footer {
     padding-bottom: 80px;
 }
 
@@ -418,6 +418,12 @@ footer ul li a:hover {
         form { 
             max-width:100%;
             align-self: self-start;
+        }
+
+        #footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
       }
