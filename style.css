@@ -73,6 +73,11 @@ a {
     cursor: pointer;
 }
 
+.mq-headline {
+    margin-bottom: 30px;
+    display: none;
+}
+
 /* Left Content */
 
 .content-left {
@@ -308,6 +313,11 @@ form {
             color: var(--h-color);
         }
     
+        p {
+            font-size: 0.9rem;
+            color: var(--p-color);
+        }
+
         .wrapper {
             width: 90%;
             display: flex;
@@ -335,5 +345,42 @@ form {
         .sm-links {
             margin-top: 25px;
         }
+
+        .exp-box {
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: none;
+            grid-template-rows: none;
+            gap: 10px;
+            margin-bottom: 4rem;
+        }
+
+        .period {
+            font-size: 0.8rem;
+            font-weight: 300;
+            color: var(--period-color);
+        }
+        
+        h3 {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .exp-box p {
+            font-size: 0.9rem;
+        }
     
+        #contact {
+            padding-bottom: 200px;
+            scroll-margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        form { 
+            max-width:100%;
+            align-self: self-start;
+        }
+
       }
