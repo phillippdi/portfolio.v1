@@ -293,10 +293,9 @@ form {
 
 @media (max-width: 600px) {
     .wrapper {
-        width: 100%;
-        display: grid;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
         gap: 10px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(auto-fill, 100px);
     }
 }
