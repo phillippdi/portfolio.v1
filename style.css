@@ -298,4 +298,11 @@ form {
         flex-direction: column;
         gap: 10px;
     }
+
+    .content-left {
+        grid-area: 1 / 1 / 4 / 2;
+        position: 0;
+        display: block;
+    }
+
 }
