@@ -21,7 +21,6 @@
 
     body {
         height: 100vh;
-        margin-top: 100px;
         background: linear-gradient(300deg,#0f4c75,#1b262c,#0f4c75);
         background-size: 180% 180%;
         animation: gradient-animation 27s ease infinite;
@@ -45,10 +44,11 @@
 
     .wrapper {
         width: 60%;
+        scroll-behavior: smooth;
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 600px;
+        grid-template-rows: 80vh;
     }
 
     h1 {
@@ -137,8 +137,7 @@
     /* About Styling */
 
     #about {
-        margin-bottom: 100px;
-        scroll-margin-top: 100px;
+        margin-bottom: 150px;
     }
 
     .highlight {
@@ -149,8 +148,7 @@
     /* Experience Styling */
 
     #experience {
-        margin-bottom: 200px;
-        scroll-margin-top: 100px;
+        margin-bottom: 150px;
     }
 
     #experience ul {
@@ -192,8 +190,7 @@
     /* Projects Styling */
 
     #projects {
-        margin-bottom: 200px;
-        scroll-margin-top: 100px;
+        margin-bottom: 150px;
     }
 
     #projects ul {
@@ -235,8 +232,7 @@
     /* Form Styling */
 
     #contact {
-        padding-bottom: 200px;
-        scroll-margin-top: 100px;
+        margin-bottom: 150px;
         display: flex;
         align-items: start;
     }
