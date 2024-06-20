@@ -432,6 +432,7 @@
         form { 
             max-width:100%;
             align-self: self-start;
+            margin-bottom: unset;
         }
 
         #footer {
