@@ -393,6 +393,8 @@
 
         .sm-links {
             margin-top: 25px;
+            position: unset;
+            bottom: unset
         }
 
         .exp-box {
