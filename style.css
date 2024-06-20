@@ -10,7 +10,7 @@
         --period-color: #94A3B8;
     }
 
-    html {
+    html, body {
         scroll-behavior: smooth !important;
     }
 
