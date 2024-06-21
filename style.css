@@ -200,6 +200,10 @@
         font-weight: 500;
     }
 
+    #experience .resume-btn:hover {
+        color: var(--a-color);
+    }
+
     /* Projects Styling */
 
     #projects {
